@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Atlassian - Dark Mode",
+  "version": "0.0.2",
+  "description": "Dark Theme for Jira & Bitbucket cloud.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/*", "https://bitbucket.org/*"],
+      "js": ["script.js"],
+      "css": ["style.css"],
+      "all_frames":true
+    }
+  ]
+}
