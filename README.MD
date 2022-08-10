@@ -2,6 +2,8 @@ Atlassian - Dark Mode
 ===========================
 Dark Theme for Jira & Bitbucket cloud.
 
+[Chrome Webstore Extension Link](https://chrome.google.com/webstore/detail/atlassian-dark-mode/didhebfodlkhpfmdcpibafgfliiocdgd)
+
 Installation
 ------------
 - git clone
